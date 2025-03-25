@@ -121,7 +121,7 @@ import dash_table
 from dash import dash_table
 
 #================= Traitement des données ================#
-df = pd.read_csv("/Users/pierrequintindekercadio/Documents/Documents - Mac/Python avancé /data.csv", index_col=0)
+df = pd.read_csv("data.csv", index_col=0)
 df = df[['CustomerID', 'Gender', 'Location', 'Product_Category', 'Quantity', 'Avg_Price', 'Transaction_Date', 'Month', 'Discount_pct']]
 
 df['CustomerID'] = df['CustomerID'].fillna(0).astype(int)
