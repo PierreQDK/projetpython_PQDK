@@ -42,7 +42,7 @@ Le projet est conçu pour être déployé sur **Render** avec :
 - Un fichier `Procfile` définissant la commande de lancement via Gunicorn :
 
 ---
-## lien
+## Lien
 
 https://projetpython-pqdk-6.onrender.com
 
