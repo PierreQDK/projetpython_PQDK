@@ -1,35 +1,54 @@
-# projetpython_PQDK
+# Présentation
 
+Ce projet vise à analyser la performance commerciale d'une boutique e-commerce fictive à travers une application interactive développée en Python. Grâce à l'intégration de données de ventes, de remises et de profils clients, nous avons construit un **dashboard dynamique** permettant d’explorer visuellement les tendances de consommation.
 
+Le projet repose sur l’outil **Dash** de Plotly, enrichi par l'utilisation de composants Bootstrap, pour offrir une interface utilisateur fluide et réactive.
 
-# 🛍️ ECAP Store Dashboard – Projet Python Dash
+L’analyse permet de mettre en lumière l’impact de plusieurs facteurs sur le chiffre d’affaires et les ventes mensuelles, notamment :
 
-Bienvenue dans le projet **ECAP Store Dashboard**, une application web interactive réalisée avec **Dash**, **Plotly** et **Dash Bootstrap Components**, permettant d’analyser dynamiquement les ventes d’un magasin e-commerce.
+- Le genre du consommateur,
+- La catégorie de produits achetés,
+- La ville de résidence,
+- Les remises appliquées,
+- Les tendances saisonnières de consommation.
 
-## 📊 Fonctionnalités principales
-
-- 🔁 **Filtrage par ville** (Dropdown interactif)
-- 📈 **Évolution du chiffre d'affaires** par semaine
-- 🥇 **Top 10 des produits les plus vendus** (catégorie & sexe)
-- 📦 **Indicateurs mensuels** :
-  - Total des ventes
-  - Chiffre d'affaires
-- 📋 **Tableau interactif** des transactions (tri, recherche, filtre)
-
-## 🧱 Stack technique
-
-- `Python`
-- `Dash` (framework web)
-- `Plotly` (graphique interactif)
-- `Pandas`, `NumPy`
-- `Dash Bootstrap Components`
-- `Gunicorn` (déploiement Render)
+En réponse aux observations, ce tableau de bord fournit un outil d’aide à la décision orienté **marketing**, **pricing** et **logistique commerciale**.
 
 ---
 
-## 🚀 Lancer le projet en local
+## Contenu du projet
 
-1. **Cloner le dépôt**
-```bash
-git clone https://github.com/PierreQDK/projetpython_PQDK.git
-cd projetpython_PQDK
+📊 **Analyse des ventes :**  
+Exploration des volumes vendus, du chiffre d’affaires et des comportements d’achat.
+
+📆 **Indicateurs temporels :**  
+Évolution hebdomadaire des ventes, suivi mensuel des performances.
+
+🏆 **Classement des meilleures ventes :**  
+Visualisation des top catégories selon le sexe du client.
+
+🌍 **Filtrage géographique :**  
+Vue par ville (Chicago, New York, California, etc.).
+
+📋 **Données interactives :**  
+Tableau filtrable des transactions complètes.
+
+---
+
+## Déploiement
+
+Le projet est conçu pour être déployé sur **Render** avec :
+- Un fichier `requirements.txt` listant les dépendances,
+- Un fichier `Procfile` définissant la commande de lancement via Gunicorn :
+
+---
+## lien
+
+https://projetpython-pqdk-6.onrender.com
+
+---
+## Auteur 
+
+📌 Pierre QUINTIN de KERCADIO
+
+📅 Année universitaire 2024 - 2025
