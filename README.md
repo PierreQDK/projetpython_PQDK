@@ -47,6 +47,12 @@ Le projet est conçu pour être déployé sur **Render** avec :
 https://projetpython-pqdk-6.onrender.com
 
 ---
+## Langages de programmation
+
+Langage : Python
+Packages : pandas, plotly, dash, dash-bootstrap-components, numpy
+
+---
 ## Auteur 
 
 📌 Pierre QUINTIN de KERCADIO
