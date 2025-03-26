@@ -50,6 +50,7 @@ https://projetpython-pqdk-6.onrender.com
 ## Langages de programmation
 
 Langage : Python
+
 Packages : pandas, plotly, dash, dash-bootstrap-components, numpy
 
 ---
